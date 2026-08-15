@@ -1,1 +1,17 @@
+[
+  {
+    "name": "Metallica - World Tour",
+    "city": "Lisboa",
+    "country": "Portugal",
+    "date": "2026-09-12",
+    "linkId": "TKT-FNAC-001"
+  },
+  {
+    "name": "Slipknot Live",
+    "city": "Tokyo",
+    "country": "Japan",
+    "date": "2026-11-03",
+    "linkId": "TKT-APEX-001"
+  }
+]
 
