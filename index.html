@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>StageRadar Redirector</title>
+  <script>
+    async function redirect() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+
+      if (!id) {
+        document.body.innerHTML = "Missing id";
+        return;
+      }
+
+      const response = await fetch("redirects.json");
+      const redirects = await response.json();
+
+      const productUrl = redirects[id];
+
+      if (!productUrl) {
+        document.body.innerHTML = "Produto não encontrado";
+        return;
+      }
+
+      if (productUrl.includes("amazon.es")) {
+        window.location.href = productUrl + "?tag=jsr1999-21";
+      } else {
+        window.location.href = productUrl;
+      }
+    }
+
+    redirect();
+  </script>
+</head>
+<body>
+  A redirecionar...
+</body>
+</html>
 
