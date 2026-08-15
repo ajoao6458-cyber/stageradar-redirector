@@ -1,1 +1,31 @@
+[
+  {
+    "name": "Slipknot Live",
+    "city": "Tokyo",
+    "country": "Japan",
+    "date": "2026-11-03",
+    "linkId": "TKT-TICKETMASTER-001"
+  },
+  {
+    "name": "Metallica World Tour",
+    "city": "Lisboa",
+    "country": "Portugal",
+    "date": "2026-09-12",
+    "linkId": "TKT-FNAC-001"
+  },
+  {
+    "name": "Hard Rock Merch Festival",
+    "city": "Los Angeles",
+    "country": "USA",
+    "date": "2026-10-21",
+    "linkId": "MERCH-MERCHBAR-001"
+  },
+  {
+    "name": "Rock Legends Expo",
+    "city": "Madrid",
+    "country": "Spain",
+    "date": "2026-08-15",
+    "linkId": "MERCH-AMAZON-001"
+  }
+]
 
