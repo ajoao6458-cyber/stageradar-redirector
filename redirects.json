@@ -5,5 +5,9 @@
 
   "MERCH-AMAZON-001": "https://www.amazon.es/dp/B07TNNPYHL",
 
-  "TKT-TICKETMASTER-001": "https://www.ticketmaster.com/search?q=Apex%20Inferno"
+  "TKT-TICKETMASTER-001": "https://www.ticketmaster.com/search?q=Apex%20Inferno",
+
+  "FOOD-BAR-001": "https://www.google.com/search?q=rock+bar+lisboa",
+  
+  "FOOD-FEST-001": "https://www.google.com/search?q=food+truck+metal+festival"
 }
